@@ -1,5 +1,7 @@
 import streamlit as st
 import pandas as pd
+import numpy as np
+import tabulate
 
 # Load the cleaned data from the CSV file
 csv_file_path = "company_energy_data.csv"  # Path to the cleaned file
