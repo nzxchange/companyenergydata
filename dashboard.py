@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Load the cleaned data from the CSV file
-csv_file_path = "cleaned_company_energy_data_with_urls.csv"  # Path to the cleaned file
+csv_file_path = "company_energy_data_with_urls.csv"  # Path to the cleaned file
 df = pd.read_csv(csv_file_path)
 
 # Set up the Streamlit dashboard
